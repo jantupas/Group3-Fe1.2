@@ -12,6 +12,7 @@ import Hooks from "./components/pages/hooks/Hooks";
 import Error from "./components/pages/error/Error";
 import Viera from "./components/pages/viera/Viera";
 import Tupas from "./components/pages/tupas/Tupas";
+import Babar from "./components/pages/babar/Babar";
 
 import './App.css';
 
@@ -27,7 +28,7 @@ function App() {
         {/* Using the Routes and Route components from react-router-dom */}
         <Routes>
           <Route path="/" element={<Template />}>
-            <Route path="/states" element={<States />} />
+            <Route path="/babar" element={<Babar />} />
             <Route path="/effect" element={<Effect />} />
             <Route path="/tupas" element={<Tupas />} />
             <Route path="/viera" element={<Viera />} />
