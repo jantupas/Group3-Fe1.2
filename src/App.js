@@ -5,14 +5,16 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Template from "./components/Template";
 import Nav from "./components/navbar/Nav";
 import Footer from "./components/footer/Footer";
-import Map from "./components/pages/map/Map";
-import States from "./components/pages/states/States";
-import Effect from "./components/pages/useEffect/Effect";
-import Hooks from "./components/pages/hooks/Hooks";
 import Error from "./components/pages/error/Error";
 import Viera from "./components/pages/viera/Viera";
 import Tupas from "./components/pages/tupas/Tupas";
 import Babar from "./components/pages/babar/Babar";
+import Ong from "./components/pages/ong/Ong";
+
+//import Map from "./components/pages/map/Map";
+//import States from "./components/pages/states/States";
+//import Effect from "./components/pages/useEffect/Effect";
+//import Hooks from "./components/pages/hooks/Hooks";
 
 import './App.css';
 
@@ -29,7 +31,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Template />}>
             <Route path="/babar" element={<Babar />} />
-            <Route path="/effect" element={<Effect />} />
+            <Route path="/ong" element={<Ong />} />
             <Route path="/tupas" element={<Tupas />} />
             <Route path="/viera" element={<Viera />} />
             <Route path="*" element={<Error />} />
