@@ -11,6 +11,7 @@ import Effect from "./components/pages/useEffect/Effect";
 import Hooks from "./components/pages/hooks/Hooks";
 import Error from "./components/pages/error/Error";
 import Viera from "./components/pages/viera/Viera";
+import Tupas from "./components/pages/tupas/Tupas";
 
 import './App.css';
 
@@ -28,7 +29,7 @@ function App() {
           <Route path="/" element={<Template />}>
             <Route path="/states" element={<States />} />
             <Route path="/effect" element={<Effect />} />
-            <Route path="/map" element={<Map />} />
+            <Route path="/tupas" element={<Tupas />} />
             <Route path="/viera" element={<Viera />} />
             <Route path="*" element={<Error />} />
           </Route>

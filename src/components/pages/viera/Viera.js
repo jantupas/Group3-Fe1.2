@@ -1,18 +1,14 @@
 import React from 'react'
 
-// importing the useState hook
-import { useState } from "react";
 
-import "./hookstyles.css"
+import "./vierastyles.css"
 
 function Viera() {
-  // using the useState hook to create a state variable for user chosen color
-  const [name, setName] = useState("Walter White");
 
   return (
-    <div className="hooks">
+    <div className="viera-content">
 
-      <h2>Rafaello Jose Viera #2021104234</h2>
+      <h2>Rafaello Jose Viera SN: 2021104234</h2>
 
     </div>
   )
